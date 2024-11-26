@@ -30,6 +30,7 @@ private:
     QTcpSocket * socket;
     QByteArray Data;
     void SendtToServer(QString str);
+    quint16 nextBlockSize;
 
 
 
